@@ -31,6 +31,7 @@ import time
 
 from configs import *
 
+
 def CreateNoiseImage(input_image):
     global size
     global noise_matrix
