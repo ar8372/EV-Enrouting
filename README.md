@@ -20,7 +20,7 @@ Below we will see demo of these:-
 <h6>The benefit of this grid approach instead of graph approach is that we can very easily put layers of information on top of this and our algorithm will work fine. Like we can add traffic information on top of it.</h6>
 <img src="Images/x1_5.gif" />
 <h4> c) With remaining battery<h4>
-<h6>We can also pass the information about available batteries and it will tell us if there is any charging station within our battery limit. </h6>
+<h6>We can also pass the information about available batteries and it will tell us if there is any charging station within our battery limit. We have given remaining battery of 100 minutes and now we see that many times it is not showing us any path  because it is out of range of 100 minutes. </h6>
 <img src="Images/x1_8.gif" />
 
 
