@@ -5,10 +5,16 @@
 <p></p>
 <img src="Images/x1_2.gif" />
 
-## Our algorithm solves various problems: 
+## Our algorithm solves 3 main problems: 
  * Finding Best Route
  * Finding Optimal Charging Station Location
- * Dealing with Overhead on Charging Stationis
+ * Dealing with Overhead on Charging Stations
+Below we will see demo of these:-
+
+### Finding Best Route: 
+<h4> a> Base problem   b) with traffic data</h4>
+<img src="Images/x1_4.gif" />
+<h4> c> With remaining battery
 
 
 Please open Backend URL once before opening the frontend URL as Heroku tends to freeze deployed Websites if the have no active visitors after a few hours
