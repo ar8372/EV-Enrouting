@@ -11,9 +11,11 @@
  * Dealing with Overhead on Charging Stations
 Below we will see demo of these:-
 
-### Finding Best Route: 
-<h4> a> Base problem   b) with traffic data</h4>
+### 1.Finding Best Route: 
+<h4> a) Base problem </h4>
 <img src="Images/x1_4.gif" />
+<h4> b) Now with traffic data </h4>
+<img src="Images/x1_5.gif" />
 <h4> c> With remaining battery
 
 
