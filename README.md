@@ -13,9 +13,9 @@ Below we will see demo of these:-
 
 ### 1.Finding Best Route: 
 <h4> a) Base problem </h4>
-<img src="Images/x1_4.gif" />
+<img src="Images/x1_7.gif" />
 <h4> b) Now with traffic data </h4>
-<img src="Images/x1_5.gif" />
+<img src="Images/x1_6.gif" />
 <h4> c> With remaining battery
 
 
