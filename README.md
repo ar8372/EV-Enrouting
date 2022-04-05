@@ -1,9 +1,9 @@
 # EV-Enrouting
 <h3>Find optimal path for electric vehicle using spatial information.</h3>
 
-<h2>Demo :-</h1>
+<h2>Preprocessing :-</h1>
 <p></p>
-<img src="Images/x1_2.gif" />
+<img src="x1_2.gif" />
 
 ## Front End of Video Talker: 
  * url: https://ms-engage-videchat-frontend.herokuapp.com/
