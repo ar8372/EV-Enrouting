@@ -3,13 +3,12 @@
 
 <h2>Preprocessing :-</h1>
 <p></p>
-<img src="Images/x1_3.gif" />
+<img src="Images/x1_2.gif" />
 
-## Front End of Video Talker: 
- * url: https://ms-engage-videchat-frontend.herokuapp.com/
- * backend url: https://ms-engage-video-chat-backend.herokuapp.com/
- * backend github link: https://github.com/aishik-rakshit/MS_engage_videochat_server
- * Video Demo YOutube link: https://www.youtube.com/watch?v=iGKmA1fG5Lg&t=2s&ab_channel=AishikRakshit
+## Our algorithm solves various problems: 
+ * Finding Best Route
+ * Finding Optimal Charging Station Location
+ * Dealing with Overhead on Charging Stationis
 
 
 Please open Backend URL once before opening the frontend URL as Heroku tends to freeze deployed Websites if the have no active visitors after a few hours
