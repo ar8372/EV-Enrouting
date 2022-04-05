@@ -3,7 +3,7 @@
 
 <h2>Preprocessing :-</h1>
 <p></p>
-<img src="x1_2.gif" />
+<img src="Images/x1_2.gif" />
 
 ## Front End of Video Talker: 
  * url: https://ms-engage-videchat-frontend.herokuapp.com/
