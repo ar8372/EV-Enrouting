@@ -9,6 +9,7 @@
  * Finding Best Route
  * Finding Optimal Charging Station Location
  * Dealing with Overhead on Charging Stations
+
 Below we will see demo of these:-
 
 ### 1.Finding Best Route: 
@@ -17,6 +18,7 @@ Below we will see demo of these:-
 <h4> b) Now with traffic data </h4>
 <img src="Images/x1_5.gif" />
 <h4> c> With remaining battery
+<img src="Images/x1_8.gif" />
 
 
 Please open Backend URL once before opening the frontend URL as Heroku tends to freeze deployed Websites if the have no active visitors after a few hours
