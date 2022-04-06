@@ -12,7 +12,7 @@
 
 Below we will see demo of these:-
 
-### 1.Finding Best Route: 
+## 1.Finding Best Route: 
 <h4> a) Base problem </h4>
 <h6>Our algorithm gives us the best route which will take the shortest path out of all the available charging stations.</h6>
 <img src="Images/x1_4.gif" />
@@ -25,9 +25,9 @@ Below we will see demo of these:-
 Let's look at details of how it is working:-
 <img src="Images/x1_10.gif" />
 
-### 2.Finding optimal Charging Stations location:
+## 2.Finding optimal Charging Stations location:
 Finding the optimal location to set up a charging station is very tricky and we have to look at various factors, like where there is more demand and  which is geographically the most feasible location from all places.
-#### So to solve this we applied three approaches. 
+### So to solve this we applied three approaches. 
  * a) Brute force approach
  * b) Sliding Window Technique
  * c) Subblocks Technique
@@ -43,6 +43,66 @@ Sub-blocks method >> Sliding Window Technique >> Brute Force Approach<br>
 (So there is tradeoff between Speed and Optimality)
 <h4>Sliding Window Techniqe </h4>
 <img src="Images/x1_11.gif" />
+
+## 3.Overhead on Charging stations:
+### For this I defined two types of overhead on the charging stations. 
+ * a) Dynamic overhead 
+ * b) Static Overhead 
+<br>
+<b>Dynamic Overhead</b> tells how many cars are there in the queue, i.e. if we reach the Charging station now, after how much time we will get the turn. <br>
+<b>Static Overhead</b> tells about on an average when a vehicle is plugged in for charging how much time it takes to get fully charged. <br>
+Together these two help us find a charging station which is best for us at that current moment.<br>
+[case1] : only Static Overhead
+| CS | Static Overhead  | travel time  | total time |
+| :---:   | :-: | :-: | :-: |
+| Cs1 | 50 | 20 | 70 |
+| Cs2 | 10 | 28 | 38 |
+| Cs3 | 5 | 38 | 43 |
+
+Cs1: 50
+Cs2: 10
+Cs3: 5 
+
+Now travel time is: 
+Cs1: 20
+Cs2: 28
+Cs3: 38
+
+So total time: 
+Cs1: 70 
+Cs2: 38 
+Cs3: 43 
+So our algorithm will choose Cs2 >> Cs3 >> Cs1 
+Let’s verify below.
+##-----------
+
+[case2] : both Dynamic and Static Overhead 
+Dynamic Overhead: 
+Cs1: 40
+Cs2: 48
+Cs3: 27
+
+travel time is: 
+Cs1: 20
+Cs2: 28
+Cs3: 38
+
+Rem overhead: 
+Cs1: max(0, 40- 20) = 20 
+Cs2: max(0, 48-28) = 20
+Cs3: max(0, 27-38) = 0
+
+Static Overhead:
+Cs1: 50
+Cs2: 10
+Cs3: 5 
+
+Total Overhead: Rem overhead + Static Overhead 
+Cs1: 70
+Cs2: 30
+Cs3: 5 
+So our algorithm will choose Cs3 >> Cs2 >> Cs1 
+[ Let’s see for how many CS it finds travel time]
 
 Please open Backend URL once before opening the frontend URL as Heroku tends to freeze deployed Websites if the have no active visitors after a few hours
 
