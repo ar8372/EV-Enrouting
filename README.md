@@ -81,5 +81,5 @@ Let’s verify below.
 So our algorithm will choose Cs3 >> Cs2 >> Cs1 
 [ In this I have applied greedy search which allows us to find optimal CS without the need of calculating travel_time of each and every CS]
 note: Greedy Search in our case gives optimal solution, details of this method can be found in the report
-<img src="Images/x1_16.gif" /> <br>
-Please open Backend URL once before opening the frontend URL as Heroku tends to freeze deployed Websites if the have no active visitors after a few hours
+<img src="Images/x1_16.gif" /> 
+
