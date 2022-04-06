@@ -67,11 +67,11 @@ Let’s verify below.
 
 [case2] : both Dynamic and Static Overhead 
 
-| Charging Station | Dynamic Overhead  | travel time  | rem overhead max(0, Dynamic_overhead-travel_time) | Static Overhead |
-| :---:   | :-: | :-: | :-: | :-: |
-| Cs1 | 40 | 20 | 20 | 50 |
-| Cs2 | 48 | 28 | 20 | 10 |
-| Cs3 | 27 | 38 | 0 | 0 |
+| Charging Station | Dynamic Overhead  | travel time  | rem overhead:- max(0, Dynamic_overhead-travel_time) | Static Overhead | Total Overhead:- rem_overhead + static_overhead |
+| :---:   | :-: | :-: | :-: | :-: | :-: |
+| Cs1 | 40 | 20 | 20 | 50 | 70 |
+| Cs2 | 48 | 28 | 20 | 10 | 30 |
+| Cs3 | 27 | 38 | 0 | 0 | 5 |
 
 
 Dynamic Overhead: 
