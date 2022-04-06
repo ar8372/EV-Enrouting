@@ -44,7 +44,7 @@ Sub-blocks method >> Sliding Window Technique >> Brute Force Approach<br>
 <h4>Sliding Window Techniqe </h4>
 <img src="Images/x1_11.gif" />
 <h4>Sliding Window with traffic</h4>
-<img src="Images/x1_13.gif" />
+<img src="Images/x1_13.gif" /> <br>
 note: we see that due to traffic the optimal charging station position has changed, which makes sense.
 
 ## 3.Overhead on Charging stations:
