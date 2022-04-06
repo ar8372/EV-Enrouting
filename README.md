@@ -26,7 +26,21 @@ Let's look at details of how it is working:-
 <img src="Images/x1_10.gif" />
 
 ### 2.Finding optimal Charging Stations location:
-
+Finding the optimal location to set up a charging station is very tricky and we have to look at various factors, like where there is more demand and  which is geographically the most feasible location from all places.
+<h4>So to solve this we applied three approaches. </h4>
+ * a) Brute force approach
+ * b) Sliding Window Technique
+ * c) Subblocks Technique
+<h6>In brute force approach we calculated total return by putting CS at each point of grid (50*50) and the point corresponding to maximum total return is the optimal point.</h6>
+<h6>In sliding window we took a window of 10*10 and moved over this 50*50 matrix.</h6>
+<h6>In Subblocks Technique we divided our whole grid into 4 sub grids (upper left, upper right, lower left, lower right). Then we calculated the return of the median point for each sub grid. We repeat the same for subgrid with max total return.</h6>
+Optimality>>
+Brute Force Approach >> Sliding Window Technique >> Sub-blocks method 
+Speed>>
+Sub-blocks method >> Sliding Window Technique >> Brute Force Approach
+(So there is tradeoff between Speed and Optimality)
+<h4>Sliding Window Techniqe </h4>
+<img src="Images/x1_11.gif" />
 
 Please open Backend URL once before opening the frontend URL as Heroku tends to freeze deployed Websites if the have no active visitors after a few hours
 
