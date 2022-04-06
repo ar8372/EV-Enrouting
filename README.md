@@ -31,9 +31,9 @@ Finding the optimal location to set up a charging station is very tricky and we 
  * a) Brute force approach
  * b) Sliding Window Technique
  * c) Subblocks Technique
-<h6>In brute force approach we calculated total return by putting CS at each point of grid (50*50) and the point corresponding to maximum total return is the optimal point.</h6>
-<h6>In sliding window we took a window of 10*10 and moved over this 50*50 matrix.</h6>
-<h6>In Subblocks Technique we divided our whole grid into 4 sub grids (upper left, upper right, lower left, lower right). Then we calculated the return of the median point for each sub grid. We repeat the same for subgrid with max total return.</h6>
+In <b>brute force</b> approach we calculated total return by putting CS at each point of grid (50*50) and the point corresponding to maximum total return is the optimal point.
+In <b>sliding window</b>  we took a window of 10*10 and moved over this 50*50 matrix.
+In </b>Sub-blocks Techniqu</b> e we divided our whole grid into 4 sub grids (upper left, upper right, lower left, lower right). Then we calculated the return of the median point for each sub grid. We repeat the same for subgrid with max total return.
 Optimality>><br>
 Brute Force Approach >> Sliding Window Technique >> Sub-blocks method 
 Speed>><br>
