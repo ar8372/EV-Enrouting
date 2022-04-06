@@ -76,18 +76,10 @@ Let’s verify below.
 | Cs2 | 48 | 28 | 20 | 10 | 30 | 58 |
 | Cs3 | 27 | 38 | 0 | 5 | 5 | 43 |
 
-| Charging Station | Dynamic Overhead  | travel time  | remaining overhead:- max(0, Dynamic_overhead-travel_time) | Static Overhead | Total Overhead:- rem_overhead + static_overhead | Total time (total_overhead + travel_time |
-| :---:   | :-: | :-: | :-: | :-: | :-: | :-: |
-| Cs1 | 20 | 20 | 0 | 50 | 50 | 70 |
-| Cs2 | 48 | 28 | 20 | 10 | 30 | 58 |
-| Cs3 | 47 | 38 | 9 | 5 | 14 | 52 |
-
 
 So our algorithm will choose Cs3 >> Cs2 >> Cs1 
 [ In this I have applied greedy search which allows us to find optimal CS without the need of calculating travel_time of each and every CS]
 note: Greedy Search in our case gives optimal solution, details of this method can be found in the report
-<img src="Images/x1_14.gif" /> <br>
-<img src="Images/x1_15.gif" /> <br>
 <img src="Images/x1_16.gif" /> <br>
 Please open Backend URL once before opening the frontend URL as Heroku tends to freeze deployed Websites if the have no active visitors after a few hours
 
