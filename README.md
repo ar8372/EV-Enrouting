@@ -73,14 +73,14 @@ Let’s verify below.
 | Charging Station | Dynamic Overhead  | travel time  | remaining overhead:- max(0, Dynamic_overhead-travel_time) | Static Overhead | Total Overhead:- rem_overhead + static_overhead | Total time (total_overhead + travel_time |
 | :---:   | :-: | :-: | :-: | :-: | :-: | :-: |
 | Cs1 | 40 | 20 | 20 | 50 | 70 | 90 |
-| Cs2 | 48 | 28 | 20 | 10 | 30 | 50 |
-| Cs3 | 27 | 38 | 0 | 0 | 5 | 43 |
+| Cs2 | 48 | 28 | 20 | 10 | 30 | 58 |
+| Cs3 | 27 | 38 | 0 | 5 | 5 | 43 |
 
 | Charging Station | Dynamic Overhead  | travel time  | remaining overhead:- max(0, Dynamic_overhead-travel_time) | Static Overhead | Total Overhead:- rem_overhead + static_overhead | Total time (total_overhead + travel_time |
 | :---:   | :-: | :-: | :-: | :-: | :-: | :-: |
-| Cs1 | 40 | 20 | 20 | 50 | 70 | 90 |
-| Cs2 | 48 | 48 | 20 | 10 | 30 | 78 |
-| Cs3 | 27 | 47 | 0 | 5 | 5 | 52 |
+| Cs1 | 20 | 20 | 0 | 50 | 50 | 70 |
+| Cs2 | 48 | 28 | 20 | 10 | 30 | 58 |
+| Cs3 | 47 | 38 | 9 | 5 | 14 | 52 |
 
 
 So our algorithm will choose Cs3 >> Cs2 >> Cs1 
