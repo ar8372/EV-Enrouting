@@ -55,30 +55,25 @@ Together these two help us find a charging station which is best for us at that 
 [case1] : only Static Overhead
 
 
-| CS | Static Overhead  | travel time  | total time |
+| Charging Station | Static Overhead  | travel time  | total time |
 | :---:   | :-: | :-: | :-: |
 | Cs1 | 50 | 20 | 70 |
 | Cs2 | 10 | 28 | 38 |
 | Cs3 | 5 | 38 | 43 |
 
-Cs1: 50
-Cs2: 10
-Cs3: 5 
-
-Now travel time is: 
-Cs1: 20
-Cs2: 28
-Cs3: 38
-
-So total time: 
-Cs1: 70 
-Cs2: 38 
-Cs3: 43 
 So our algorithm will choose Cs2 >> Cs3 >> Cs1 
 Let’s verify below.
 ##-----------
 
 [case2] : both Dynamic and Static Overhead 
+
+| Charging Station | Dynamic Overhead  | travel time  | rem overhead max(0, Dynamic_overhead-travel_time) | Static Overhead |
+| :---:   | :-: | :-: | :-: | :-: |
+| Cs1 | 40 | 20 | 20 | 50 |
+| Cs2 | 48 | 28 | 20 | 10 |
+| Cs3 | 27 | 38 | 0 | 0 |
+
+
 Dynamic Overhead: 
 Cs1: 40
 Cs2: 48
