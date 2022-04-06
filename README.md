@@ -27,7 +27,7 @@ Let's look at details of how it is working:-
 
 ### 2.Finding optimal Charging Stations location:
 Finding the optimal location to set up a charging station is very tricky and we have to look at various factors, like where there is more demand and  which is geographically the most feasible location from all places.
-## So to solve this we applied three approaches. 
+#### So to solve this we applied three approaches. 
  * a) Brute force approach
  * b) Sliding Window Technique
  * c) Subblocks Technique
