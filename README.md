@@ -53,6 +53,8 @@ Sub-blocks method >> Sliding Window Technique >> Brute Force Approach<br>
 <b>Static Overhead</b> tells about on an average when a vehicle is plugged in for charging how much time it takes to get fully charged. <br>
 Together these two help us find a charging station which is best for us at that current moment.<br>
 [case1] : only Static Overhead
+
+
 | CS | Static Overhead  | travel time  | total time |
 | :---:   | :-: | :-: | :-: |
 | Cs1 | 50 | 20 | 70 |
