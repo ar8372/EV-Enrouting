@@ -74,30 +74,6 @@ Let’s verify below.
 | Cs3 | 27 | 38 | 0 | 0 | 5 |
 
 
-Dynamic Overhead: 
-Cs1: 40
-Cs2: 48
-Cs3: 27
-
-travel time is: 
-Cs1: 20
-Cs2: 28
-Cs3: 38
-
-Rem overhead: 
-Cs1: max(0, 40- 20) = 20 
-Cs2: max(0, 48-28) = 20
-Cs3: max(0, 27-38) = 0
-
-Static Overhead:
-Cs1: 50
-Cs2: 10
-Cs3: 5 
-
-Total Overhead: Rem overhead + Static Overhead 
-Cs1: 70
-Cs2: 30
-Cs3: 5 
 So our algorithm will choose Cs3 >> Cs2 >> Cs1 
 [ Let’s see for how many CS it finds travel time]
 
