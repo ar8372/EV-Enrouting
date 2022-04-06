@@ -43,13 +43,14 @@ Sub-blocks method >> Sliding Window Technique >> Brute Force Approach<br>
 (So there is tradeoff between Speed and Optimality)
 <h4>Sliding Window Techniqe </h4>
 <img src="Images/x1_11.gif" />
+<img src="Images/x1_13.gif" />
 
 ## 3.Overhead on Charging stations:
-### For this I defined two types of overhead on the charging stations. 
+### For this I have defined two types of overhead on the charging stations. 
  * a) Dynamic overhead 
  * b) Static Overhead 
 <br>
-<b>Dynamic Overhead</b> tells how many cars are there in the queue, i.e. if we reach the Charging station now, after how much time we will get the turn. <br>
+<b>Dynamic Overhead</b> tells how many cars are there in the queue, i.e. if we reach the Charging station now then after how much time we will get the turn. <br>
 <b>Static Overhead</b> tells about on an average when a vehicle is plugged in for charging how much time it takes to get fully charged. <br>
 Together these two help us find a charging station which is best for us at that current moment.<br>
 [case1] : only Static Overhead
@@ -67,7 +68,7 @@ Let’s verify below.
 
 [case2] : both Dynamic and Static Overhead 
 
-| Charging Station | Dynamic Overhead  | travel time  | rem overhead:- max(0, Dynamic_overhead-travel_time) | Static Overhead | Total Overhead:- rem_overhead + static_overhead |
+| Charging Station | Dynamic Overhead  | travel time  | remaining overhead:- max(0, Dynamic_overhead-travel_time) | Static Overhead | Total Overhead:- rem_overhead + static_overhead |
 | :---:   | :-: | :-: | :-: | :-: | :-: |
 | Cs1 | 40 | 20 | 20 | 50 | 70 |
 | Cs2 | 48 | 28 | 20 | 10 | 30 |
@@ -75,7 +76,8 @@ Let’s verify below.
 
 
 So our algorithm will choose Cs3 >> Cs2 >> Cs1 
-[ Let’s see for how many CS it finds travel time]
+[ In this I have applied greedy search which allows us to find optimal CS without the need of calculating travel_time of each and every CS]
+note: Greedy Search in our case gives optimal solution, details of this method can be found in the report
 
 Please open Backend URL once before opening the frontend URL as Heroku tends to freeze deployed Websites if the have no active visitors after a few hours
 
