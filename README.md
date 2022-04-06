@@ -64,9 +64,9 @@ Together these two help us find a charging station which is best for us at that 
 | Cs2 | 10 | 28 | 38 |
 | Cs3 | 5 | 38 | 43 |
 
-So our algorithm will choose Cs2 >> Cs3 >> Cs1 
+So our algorithm will choose Cs2 >> Cs3 >> Cs1 <br>
 Let’s verify below.
-<img src="Images/x1_15.gif" /> <br>
+<img src="Images/x1_19.gif" /> <br>
 
 [case2] : both Dynamic and Static Overhead 
 
