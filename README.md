@@ -66,7 +66,7 @@ Together these two help us find a charging station which is best for us at that 
 
 So our algorithm will choose Cs2 >> Cs3 >> Cs1 
 Let’s verify below.
-##-----------
+<img src="Images/x1_15.gif" /> <br>
 
 [case2] : both Dynamic and Static Overhead 
 
@@ -80,6 +80,7 @@ Let’s verify below.
 So our algorithm will choose Cs3 >> Cs2 >> Cs1 
 [ In this I have applied greedy search which allows us to find optimal CS without the need of calculating travel_time of each and every CS]
 note: Greedy Search in our case gives optimal solution, details of this method can be found in the report
+<img src="Images/x1_14.gif" /> <br>
 
 Please open Backend URL once before opening the frontend URL as Heroku tends to freeze deployed Websites if the have no active visitors after a few hours
 
