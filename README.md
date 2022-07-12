@@ -7,7 +7,7 @@
 
 ## Our algorithm solves 3 main problems: 
  * Finding Best Route
- * Finding Optimal Charging Station Location
+ * Finding Optimal Charging Station Placement Location
  * Dealing with Overhead on Charging Stations
 
 Below we will see demo of these:-
