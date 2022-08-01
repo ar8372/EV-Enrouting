@@ -43,6 +43,7 @@ c) In </b>Sub-blocks Techniqu</b> e we divided our whole grid into 4 sub grids (
 [Speed]<br>
 
 > Sub-blocks method >> Sliding Window Technique >> Brute Force Approach<br>
+
 (So there is tradeoff between Speed and Optimality)
 <h4>Sliding Window Techniqe </h4>
 <img src="Images/x1_11.gif" />
